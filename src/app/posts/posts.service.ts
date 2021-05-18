@@ -45,7 +45,6 @@ export class PostsService {
 
   getPostUpdateListener() {
     return this.postsUpdated.asObservable();
-    
   }
 
   getPost(id: string) {

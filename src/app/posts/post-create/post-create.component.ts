@@ -75,6 +75,7 @@ export class PostCreateComponent implements OnInit {
   }
 
   onSavePost() {
+    console.log(  this.form.value)
     if (this.form.invalid) {
       return;
     }
